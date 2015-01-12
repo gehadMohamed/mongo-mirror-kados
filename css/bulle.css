@@ -1,0 +1,345 @@
+/* AUTEUR: marmotte */
+/* DATE DE CREATION: 16/10/2005 */
+
+
+a.info_short {
+   position: relative;
+   color: black;
+   text-decoration: none;
+   text-align:left;
+   cursor:default;
+}
+a.info_short span {
+   display: none; /* on masque l'infobulle */
+}
+a.info_short:hover {
+   background: none; /* correction d'un bug IE */
+   z-index: 500; /* on définit une valeur pour l'ordre d'affichage */
+}
+
+a.info_short:hover span {
+   display: inline; /* on affiche l'infobulle */
+   position: absolute;
+
+   white-space: nowrap; /* on change la valeur de la propriété white-space pour qu'il n'y ait pas de retour à la ligne non-désiré */
+
+   top: 30px; /* on positionne notre infobulle */
+   left: -15px;
+   background-color:rgb(255,255,204);
+
+   color: black;
+   padding: 3px;
+
+	 border:solid 1px rgb(255,204,0);	 
+   border-left: solid 4px rgb(255,204,0);
+}
+
+a.info {
+   position: relative;
+   color: black;
+   text-decoration: none;
+   text-align:left;
+   cursor:default;   
+}
+a.info span {
+   display: none; /* on masque l'infobulle */
+}
+a.info:hover {
+   background: none; /* correction d'un bug IE */
+   z-index: 500; /* on définit une valeur pour l'ordre d'affichage */
+}
+
+a.info:hover span {
+   display: inline; /* on affiche l'infobulle */
+   position: absolute;
+
+   white-space: nowrap; /* on change la valeur de la propriété white-space pour qu'il n'y ait pas de retour à la ligne non-désiré */
+
+   top: 30px; /* on positionne notre infobulle */
+   left: -50px;
+   background-color:rgb(255,255,204);
+
+   color: black;
+   padding: 3px;
+
+	 border:solid 1px rgb(255,204,0);	 
+   border-left: solid 4px rgb(255,204,0);
+}
+
+a.info_long {
+   position: relative;
+   color: black;
+   text-decoration: none;
+   text-align:left;
+   cursor:default;   
+}
+a.info_long span {
+   display: none; /* on masque l'infobulle */
+}
+a.info_long:hover {
+   background: none; /* correction d'un bug IE */
+   z-index: 500; /* on définit une valeur pour l'ordre d'affichage */
+}
+
+a.info_long:hover span {
+   display: inline; /* on affiche l'infobulle */
+   position: absolute;
+
+   white-space: nowrap; /* on change la valeur de la propriété white-space pour qu'il n'y ait pas de retour à la ligne non-désiré */
+
+   top: 30px; /* on positionne notre infobulle */
+   left: -90px;
+   background-color:rgb(255,255,204);
+
+   color: black;
+   padding: 3px;
+
+	 border:solid 1px rgb(255,204,0);	 
+   border-left: solid 4px rgb(255,204,0);
+}
+
+
+a.info_huge {
+   position: relative;
+   color: black;
+   text-decoration: none;
+   text-align:left;   
+   cursor:default;   
+}
+a.info_huge span {
+   display: none; /* on masque l'infobulle */
+}
+a.info_huge:hover {
+   background: none; /* correction d'un bug IE */
+   z-index: 500; /* on définit une valeur pour l'ordre d'affichage */
+}
+
+a.info_huge:hover span {
+   display: inline; /* on affiche l'infobulle */
+   position: absolute;
+
+   white-space: nowrap; /* on change la valeur de la propriété white-space pour qu'il n'y ait pas de retour à la ligne non-désiré */
+
+   top: 30px; /* on positionne notre infobulle */
+   left: -150px;
+   background-color:rgb(255,255,204);
+
+   color: black;
+   padding: 3px;
+
+	 border:solid 1px rgb(255,204,0);	 
+   border-left: solid 4px rgb(255,204,0);
+}
+
+
+
+a.warning_short {
+   position: relative;
+   color: black;
+   text-decoration: none;
+   text-align:left;
+}
+a.warning_short span {
+   display: none; /* on masque l'warningbulle */
+}
+a.warning_short:hover {
+   background: none; /* correction d'un bug IE */
+   z-index: 500; /* on définit une valeur pour l'ordre d'affichage */
+}
+
+a.warning_short:hover span {
+   display: inline; /* on affiche la warningbulle */
+   position: absolute;
+
+   white-space: nowrap; /* on change la valeur de la propriété white-space pour qu'il n'y ait pas de retour à la ligne non-désiré */
+
+   top: 30px; /* on positionne notre warningbulle */
+   left: -55px;
+   background-color:#ECBDB4;
+
+   color: black;
+   padding: 3px;
+
+	 border:solid 1px #EC4021;	 
+   border-left: solid 4px #EC4021;
+}
+
+a.warning {
+   position: relative;
+   color: black;
+   text-decoration: none;
+   text-align:left;
+}
+a.warning span {
+   display: none; /* on masque l'warningbulle */
+}
+a.warning:hover {
+   background: none; /* correction d'un bug IE */
+   z-index: 500; /* on définit une valeur pour l'ordre d'affichage */
+}
+
+a.warning:hover span {
+   display: inline; /* on affiche l'warningbulle */
+   position: absolute;
+
+   white-space: nowrap; /* on change la valeur de la propriété white-space pour qu'il n'y ait pas de retour à la ligne non-désiré */
+
+   top: 30px; /* on positionne notre warningbulle */
+   left: -90px;
+   background-color:#ECBDB4;
+
+   color: black;
+   padding: 3px;
+
+	 border:solid 1px #EC4021;	 
+   border-left: solid 4px #EC4021;
+}
+
+a.warning_long {
+   position: relative;
+   color: black;
+   text-decoration: none;
+   text-align:left;
+}
+a.warning_long span {
+   display: none; /* on masque l'warningbulle */
+}
+a.warning_long:hover {
+   background: none; /* correction d'un bug IE */
+   z-index: 500; /* on définit une valeur pour l'ordre d'affichage */
+}
+
+a.warning_long:hover span {
+   display: inline; /* on affiche l'warningbulle */
+   position: absolute;
+
+   white-space: nowrap; /* on change la valeur de la propriété white-space pour qu'il n'y ait pas de retour à la ligne non-désiré */
+
+   top: 30px; /* on positionne notre warningbulle */
+   left: -130px;
+   background-color:#ECBDB4;
+
+   color: black;
+   padding: 3px;
+
+	 border:solid 1px #EC4021;	 
+   border-left: solid 4px #EC4021;
+}
+
+
+a.warning_huge {
+   position: relative;
+   color: black;
+   text-decoration: none;
+   text-align:left;   
+}
+a.warning_huge span {
+   display: none; /* on masque l'warningbulle */
+}
+a.warning_huge:hover {
+   background: none; /* correction d'un bug IE */
+   z-index: 500; /* on définit une valeur pour l'ordre d'affichage */
+}
+
+a.warning_huge:hover span {
+   display: inline; /* on affiche l'warningbulle */
+   position: absolute;
+
+   white-space: nowrap; /* on change la valeur de la propriété white-space pour qu'il n'y ait pas de retour à la ligne non-désiré */
+
+   top: 30px; /* on positionne notre warningbulle */
+   left: -170px;
+   background-color:#ECBDB4;
+
+   color: black;
+   padding: 3px;
+
+	 border:solid 1px #EC4021;	 
+   border-left: solid 4px #EC4021;
+}
+
+
+a.details {
+   position: relative;
+   color: black;
+   text-decoration: none;
+   text-align:left;
+}
+a.details div {
+   display: none; /* on masque l'infobulle */
+}
+a.details:hover {
+   background: none; /* correction d'un bug IE */
+   z-index: 50000; /* on définit une valeur pour l'ordre d'affichage */
+}
+
+a.details:hover div {
+   display: block; /* on affiche l'infobulle */
+   position: absolute;
+   white-space: nowrap; /* on change la valeur de la propriété white-space pour qu'il n'y ait pas de retour à la ligne non-désiré */
+   top: -120px; /* on positionne notre infobulle */
+   left:5px;
+   background-color:#FFFFFF;
+   color: black;
+   padding: 3px;
+   height:115px;
+   border:solid 1px black;	 
+   border-top: solid 4px black;
+}
+
+
+.choice {
+   position: relative;
+   color: black;
+   text-decoration: none;
+   text-align:left;
+}
+.choice span {
+   display: none; /* on masque l'infobulle */
+}
+
+.choice:hover {
+   background: none; /* correction d'un bug IE */
+   z-index: 500; /* on définit une valeur pour l'ordre d'affichage */
+}
+
+.choice:hover span {
+   display: inline; /* on affiche l'infobulle */
+   position: absolute;
+   white-space: nowrap; /* on change la valeur de la propriété white-space pour qu'il n'y ait pas de retour à la ligne non-désiré */
+   top: -8px; /* on positionne notre infobulle */
+   left:15px;
+   background-color:#D6D6D6;
+   color: black;
+   padding: 2px;
+   border:solid 1px #6D6D6D;	 
+   border-left: solid 4px #6D6D6D;
+}
+
+.choice_color {
+   position: relative;
+   color: black;
+   text-decoration: none;
+   text-align:left;
+}
+.choice_color span {
+   display: none; /* on masque l'infobulle */
+}
+
+.choice_color:hover {
+   background: none; /* correction d'un bug IE */
+   z-index: 500; /* on définit une valeur pour l'ordre d'affichage */
+}
+
+.choice_color:hover span {
+   display: inline; /* on affiche l'infobulle */
+   position: absolute;
+   white-space: nowrap; /* on change la valeur de la propriété white-space pour qu'il n'y ait pas de retour à la ligne non-désiré */
+   top: -8px; /* on positionne notre infobulle */
+   left:15px;
+   background-color:#F9F1C7;
+   color: black;
+   padding: 2px;
+   border:solid 1px #F9BF3A;	 
+   border-left: solid 4px #F9BF3A;
+}

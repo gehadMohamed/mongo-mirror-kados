@@ -1,0 +1,63 @@
+/************** BUTTON ON/OFF ******************/
+.ButtonOnOff{
+    border-collapse:collapse;
+    border:solid 1px #757575;
+    border-right:0;
+    margin:0;
+	padding:0;
+	text-align:left;
+	float:left;
+	margin-left:15px;
+	margin-bottom:15px;
+}
+.ButtonOnOff td{
+	border:0;
+	padding:4px 5px 4px 5px;
+	border-right:solid 1px #757575;	
+	vertical-align:middle;
+}
+.ButtonOnOff th{
+	border-bottom:solid 1px #757575;	
+	border-right:solid 1px #757575;	
+	padding:4px 5px 4px 5px;
+	vertical-align:middle;
+	margin-top:2px;
+}
+
+
+.blueButton{
+	background-color:#DFDFFF;
+}
+
+.white_colorButton {
+  color:#FFFFFF;
+}
+
+.grey_colorButton {
+  color:#6C6970;
+}
+
+/************** SMALL BUTTON ON/OFF ******************/
+.SmallButtonOnOff{
+    border-collapse:collapse;
+    border:0;
+    margin:0;
+	padding:0;
+	text-align:left;
+}
+
+.SmallButtonPart{
+  float:left;
+  padding-left:4px;
+  padding-right:4px;
+  font-size:10px;
+  font-weight:bold;  
+}
+
+.middlegreenSmallButton{
+  color:#04D300;
+}
+
+.orangeSmallButton{
+  color:red;
+}

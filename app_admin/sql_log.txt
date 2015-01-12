@@ -1,0 +1,5 @@
+2015-01-11 21:38:08 => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY menu_order' at line 1 - /kados/app_admin/external_connections.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus WHERE menu_father='' AND menu_translation_language='en' AND menu_tag=framework_menus_translations.menu_tag_fk AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk AND profile_id_fk= ORDER BY menu_order)
+2015-01-11 21:38:08 => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3 - /kados/app_admin/external_connections.php - (SELECT SUBSTRING(TRIM(TRAILING '?' FROM menu_file),LOCATE('/',menu_file)+1) 
+                 FROM framework_menus,framework_profiles_constitution_menus 
+                 WHERE menu_tag_fk=menu_tag AND profile_id_fk=)
+

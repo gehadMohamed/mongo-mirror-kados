@@ -1,0 +1,223 @@
+/* CSS Document */
+/*********** FORMULAIRE ************/	
+
+.fieldset {
+  margin-top: 5px;
+  padding: 8px;
+  border:0;
+}
+
+.label {
+  text-align:right;
+  float:left; 
+  padding:0;
+  padding-top:2px;
+}
+
+.label_table {
+  text-align:left;
+  padding:0;
+  padding-top:2px;
+}
+
+.readonly_form_field {
+  border:solid 1px black;
+  margin-left:5px;
+  font-weight:bold;
+  color:#000000;
+  background-color:rgb(204,204,204);
+  margin-bottom:2px;
+}
+
+.date_form_field {
+  border:solid 1px black;
+  margin-left:5px;
+  font-weight:bold;
+  color:#000000;
+  background-color:rgb(204,153,102);
+  margin-bottom:2px;
+}		
+
+.readonly_form_field_counter{
+  border:solid 1px rgb(102,102,204);
+  margin:0;
+  padding:0;
+  color:#000000;
+  background-color:rgb(204,204,255);
+  text-align:center;
+  position:relative;
+  top:-3px;
+}
+	
+.std_form_field {
+  margin-left:5px;
+  color: #00016E;
+  border:solid 1px black;
+  margin-bottom:2px;  
+}
+
+.embedded_form_field
+{
+  margin:0;
+  color: #00016E;
+  border:0;
+  border-bottom:solid 1px #072FAA;
+  border-right:solid 1px #072FAA;
+  background-color:#BBC6E7;
+  text-align:right;
+  padding:0;
+}
+
+.checkbox_form_field{
+  margin-left:5px;
+  color: #00016E;
+  margin-bottom:2px;  
+}
+
+.fieldset #date {
+  width: 90px;
+}
+
+.fieldset .legend{
+  margin:0;
+  padding:4px;
+  border:0;
+  border:solid 1px #7E7E7E;
+  margin-bottom:20px;
+  background-color:#EAEAEA;  
+  background-image:url('../images/form.gif');
+  background-position:3px 3px;
+  background-repeat:no-repeat;
+  padding-left:22px;    
+  font-weight:bold;
+}
+
+.fieldset #heure {
+  width: 70px;
+}
+
+.std_form_field_liste {
+  margin-bottom:2px;
+  margin-left:5px;
+  color: #00016E;
+  border:solid 1px black;
+}
+	
+
+.fieldset .spam{
+	float:left;
+	width:400px;
+	padding:5px;
+	margin-top:10px;
+	margin-bottom:10px;
+	border:solid 1px #7A788A;
+	background-color:#E1DDFF;
+}
+
+.spam .text{
+	font-size:8pt;
+	color:#A8040C;
+	padding-bottom:7px;
+	text-align:justify;
+}
+
+.std_form_field .image{
+	float:left;
+	margin-right:10px;	
+	margin-top:-8px;
+}
+
+.spam .std_form_field{
+	margin-top:12px;
+}
+.input_code{
+	border:0;
+	border-bottom:solid 1px black;
+  font-family: Verdana, Arial, Helvetica;	
+}	
+
+.length25{
+  width:50px;
+}	
+	
+.length50{
+  width:100px;
+}	
+.length100{
+  width:150px;
+}
+.length150{
+  width:200px;
+}
+.length200{
+  width:250px;
+}
+.length0{
+  width:50px;
+}
+.length250{
+  width:300px;
+}
+
+.required_field {
+  font-weight:bold;
+  color:#C70202;
+}
+  
+.required_field50 {
+  font-weight:bold;	
+  color:#C70202;
+  width:100px;
+}
+
+.required_field0 {
+	font-weight:bold;
+  color:#C70202;
+  width:50px;
+}
+  
+.required_field150 {
+  font-weight:bold;	
+  color:#C70202;
+  width:200px;
+}
+
+.required_field100 {
+  font-weight:bold;	
+  color:#C70202;
+  width:150px;
+}  
+
+.required_field200 {
+  font-weight:bold;	
+  color:#C70202;
+  width:250px;
+}
+  
+.required_field250 {
+  font-weight:bold;	
+  color:#C70202;
+  width:300px;
+}
+  
+.input_no_class{
+  background-color:rgb(255,255,255);
+  margin-left:5px;
+  color: #00016E;
+  border:0;
+  margin-top:2px;  
+  text-align:center;
+}
+
+.input_no_class_alt{
+  background-color:#EAEAEA;
+  margin-left:5px;
+  color: #00016E;
+  border:0;
+  margin-bottom:2px;  
+  text-align:center;  
+}
+	
+.interline{
+  height:5px;
+}

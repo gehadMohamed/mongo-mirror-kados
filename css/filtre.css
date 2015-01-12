@@ -1,0 +1,92 @@
+.cadre_filtres{
+	color: #000000;
+	font-size: 8pt;
+	margin-top: 5px;
+	padding: 0px;
+	text-align: center;
+	float:left;
+	margin-left:5px;
+}	
+
+.case_filtre{
+	float:left;
+	padding: 2px;
+	margin-top: 0px;
+	font-size: 8pt;
+	border:solid 1px rgb(103,103,103);
+	text-align:center;	
+	margin-right:3px;
+	padding-left:3px;
+	margin-bottom:3px;
+	white-space:nowrap;
+}
+
+.filter_line{
+	color: #000000;
+	font-size: 7pt;
+	margin-top: 0px;
+	padding: 0px;
+	text-align: center;
+	float:left;
+}
+
+.filter_line_case{
+	float:left;
+	color:black;
+	padding: 4px;
+	margin-top: 0px;
+	font-size: 7pt;
+	border:solid 1px rgb(103,103,103);
+	text-align:center;	
+	margin-right:3px;
+	padding-left:3px;
+	margin-bottom:3px;
+	white-space:nowrap;
+}
+
+.filter_line_case a{
+	font-size: 8pt;
+}
+
+.date_form_field {
+  border:solid 1px rgb(103,103,103);
+  font-size:8pt;
+  background-color:#EFAD67;  
+}
+
+.filtre_input,
+.filtre_select{
+  border:solid 1px rgb(103,103,103);
+  font-size:8pt;
+  background-color:rgb(247,247,247);  
+}
+
+#selected{
+  color:#CC0000;
+  font-size:8pt;  
+}
+
+#actif{
+  color:#CC0000;
+  background-repeat:no-repeat;
+  background-position:5px 5px;    
+  background-image:url("../images/filtre_actif.png");  
+  padding-left:20px;     
+}
+
+.filtre_action{
+	display:table-cell;
+	color:#000000;
+	padding:3px 4px 3px 5px;
+	text-decoration:none;
+	background-color:#DDDCCC;
+	border:1px solid #002861;
+	border-width:0 1px 1px 0;
+	white-space:nowrap; 
+	float:left;
+	margin-right:5px;
+	font-size:8pt;
+	height:23px;
+}
+
+.filtre_action:hover{ color:#FFF; background-color:#003988;}
