@@ -15,7 +15,7 @@ Class mconnexion_db
       $this->nom_db=$PARAM_mdb_db;
       
       $this->num=new MongoClient();
-      $this->num=$this->num->kados;
+      $this->num=$this->num->$PARAM_mdb_db;
       }	  
 	
 	
