@@ -801,4 +801,151 @@
                  WHERE menu_tag_fk=menu_tag AND profile_id_fk=)
 2015-01-10 00:12:18 => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND status_id_fk=status_id AND status_translation_language='en' AND transition_i' at line 1 - /kados/projects.php - (SELECT status_id,status_translation_value AS status_value,status_icon FROM framework_status,framework_status_translations,framework_workflows_transitions,framework_workflows_transitions_profiles WHERE profile_id_fk= AND status_id_fk=status_id AND status_translation_language='en' AND transition_id_fk=transition_id AND transition_final_status=framework_status.status_id AND transition_initial_status=5 AND transition_wf_id_fk=5)
 2015-01-10 00:12:18 => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND status_id_fk=status_id AND status_translation_language='en' AND transition_i' at line 1 - /kados/projects.php - (SELECT status_id,status_translation_value AS status_value,status_icon FROM framework_status,framework_status_translations,framework_workflows_transitions,framework_workflows_transitions_profiles WHERE profile_id_fk= AND status_id_fk=status_id AND status_translation_language='en' AND transition_id_fk=transition_id AND transition_final_status=framework_status.status_id AND transition_initial_status=8 AND transition_wf_id_fk=5)
+2015-04-07 21:10:52 => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY menu_order' at line 7 - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
+             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
+             WHERE menu_father='' AND menu_translation_language='en' 
+               AND menu_tag=framework_menus_translations.menu_tag_fk 
+               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
+               AND profile_id_fk= 
+             ORDER BY menu_order)
+2015-04-07 21:10:52 => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY menu_order' at line 7 - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
+             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
+             WHERE menu_father='' AND menu_translation_language='en' 
+               AND menu_tag=framework_menus_translations.menu_tag_fk 
+               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
+               AND profile_id_fk= 
+             ORDER BY menu_order)
+2015-04-07 21:10:52 => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY menu_order' at line 7 - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
+             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
+             WHERE menu_father='' AND menu_translation_language='en' 
+               AND menu_tag=framework_menus_translations.menu_tag_fk 
+               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
+               AND profile_id_fk= 
+             ORDER BY menu_order)
+2015-04-07 21:10:52 => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY menu_order' at line 7 - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
+             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
+             WHERE menu_father='' AND menu_translation_language='en' 
+               AND menu_tag=framework_menus_translations.menu_tag_fk 
+               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
+               AND profile_id_fk= 
+             ORDER BY menu_order)
+2015-04-07 21:10:52 => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY menu_order' at line 7 - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
+             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
+             WHERE menu_father='' AND menu_translation_language='en' 
+               AND menu_tag=framework_menus_translations.menu_tag_fk 
+               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
+               AND profile_id_fk= 
+             ORDER BY menu_order)
+2015-04-07 21:10:52 => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY menu_order' at line 7 - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
+             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
+             WHERE menu_father='' AND menu_translation_language='en' 
+               AND menu_tag=framework_menus_translations.menu_tag_fk 
+               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
+               AND profile_id_fk= 
+             ORDER BY menu_order)
+2015-04-07 21:10:52 => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY menu_order' at line 7 - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
+             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
+             WHERE menu_father='' AND menu_translation_language='en' 
+               AND menu_tag=framework_menus_translations.menu_tag_fk 
+               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
+               AND profile_id_fk= 
+             ORDER BY menu_order)
+2015-04-07 21:10:52 => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY menu_order' at line 7 - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
+             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
+             WHERE menu_father='' AND menu_translation_language='en' 
+               AND menu_tag=framework_menus_translations.menu_tag_fk 
+               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
+               AND profile_id_fk= 
+             ORDER BY menu_order)
+2015-04-07 21:10:52 => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY menu_order' at line 7 - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
+             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
+             WHERE menu_father='' AND menu_translation_language='en' 
+               AND menu_tag=framework_menus_translations.menu_tag_fk 
+               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
+               AND profile_id_fk= 
+             ORDER BY menu_order)
+2015-04-07 21:10:52 => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY menu_order' at line 7 - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
+             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
+             WHERE menu_father='' AND menu_translation_language='en' 
+               AND menu_tag=framework_menus_translations.menu_tag_fk 
+               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
+               AND profile_id_fk= 
+             ORDER BY menu_order)
+2015-04-07 21:10:52 => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY menu_order' at line 7 - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
+             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
+             WHERE menu_father='' AND menu_translation_language='en' 
+               AND menu_tag=framework_menus_translations.menu_tag_fk 
+               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
+               AND profile_id_fk= 
+             ORDER BY menu_order)
+2015-04-07 21:10:52 => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY menu_order' at line 7 - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
+             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
+             WHERE menu_father='' AND menu_translation_language='en' 
+               AND menu_tag=framework_menus_translations.menu_tag_fk 
+               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
+               AND profile_id_fk= 
+             ORDER BY menu_order)
+2015-04-07 21:10:52 => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY menu_order' at line 7 - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
+             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
+             WHERE menu_father='' AND menu_translation_language='en' 
+               AND menu_tag=framework_menus_translations.menu_tag_fk 
+               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
+               AND profile_id_fk= 
+             ORDER BY menu_order)
+2015-04-07 21:10:52 => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY menu_order' at line 7 - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
+             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
+             WHERE menu_father='' AND menu_translation_language='en' 
+               AND menu_tag=framework_menus_translations.menu_tag_fk 
+               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
+               AND profile_id_fk= 
+             ORDER BY menu_order)
+2015-04-07 21:10:52 => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY menu_order' at line 7 - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
+             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
+             WHERE menu_father='' AND menu_translation_language='en' 
+               AND menu_tag=framework_menus_translations.menu_tag_fk 
+               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
+               AND profile_id_fk= 
+             ORDER BY menu_order)
+2015-04-07 21:10:52 => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY menu_order' at line 7 - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
+             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
+             WHERE menu_father='' AND menu_translation_language='en' 
+               AND menu_tag=framework_menus_translations.menu_tag_fk 
+               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
+               AND profile_id_fk= 
+             ORDER BY menu_order)
+2015-04-07 21:10:52 => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY menu_order' at line 7 - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
+             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
+             WHERE menu_father='' AND menu_translation_language='en' 
+               AND menu_tag=framework_menus_translations.menu_tag_fk 
+               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
+               AND profile_id_fk= 
+             ORDER BY menu_order)
+2015-04-07 21:10:52 => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY menu_order' at line 7 - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
+             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
+             WHERE menu_father='' AND menu_translation_language='en' 
+               AND menu_tag=framework_menus_translations.menu_tag_fk 
+               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
+               AND profile_id_fk= 
+             ORDER BY menu_order)
+2015-04-07 21:10:52 => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY menu_order' at line 7 - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
+             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
+             WHERE menu_father='' AND menu_translation_language='en' 
+               AND menu_tag=framework_menus_translations.menu_tag_fk 
+               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
+               AND profile_id_fk= 
+             ORDER BY menu_order)
+2015-04-07 21:10:52 => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY menu_order' at line 7 - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
+             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
+             WHERE menu_father='' AND menu_translation_language='en' 
+               AND menu_tag=framework_menus_translations.menu_tag_fk 
+               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
+               AND profile_id_fk= 
+             ORDER BY menu_order)
+2015-04-07 21:10:52 => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY menu_order' at line 7 - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
+             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
+             WHERE menu_father='' AND menu_translation_language='en' 
+               AND menu_tag=framework_menus_translations.menu_tag_fk 
+               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
+               AND profile_id_fk= 
+             ORDER BY menu_order)
 
