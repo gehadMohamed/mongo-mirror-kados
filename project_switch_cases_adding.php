@@ -34,8 +34,8 @@
 // MONGO          
     $mrequest=new requete("SELECT * FROM kados_projects WHERE project_id='".$request->insert_id()."'",$cnx->num);
     
-
-    $mcnx->num->kados_projects->insert(array_shift($mrequest->recup_array_champ()));
+    $result = $mrequest->recup_array_champ();
+    $mcnx->num->kados_projects->insert($result[0]);
         
 
       $idNew=$request->insert_id();
