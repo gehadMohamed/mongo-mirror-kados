@@ -32,11 +32,11 @@ $displayTable=true;
       $request->envoi('DELETE FROM kados_projects_colors WHERE project_id_fk='.$id2delete);  	
       $request->envoi('DELETE FROM kados_projects_columns WHERE project_id_fk='.$id2delete); 
 
-      $mcnx->num->kados_projects->remove(array('project_id'=>$id2delete));
-      $mcnx->num->kados_projects_users->remove(array('project_id_fk'=>$id2delete));
-      $mcnx->num->kados_projects_settings->remove(array('project_id_fk'=>$id2delete));
-      $mcnx->num->kados_projects_colors->remove(array('project_id_fk'=>$id2delete));
-      $mcnx->num->kados_projects_columns->remove(array('project_id_fk'=>$id2delete));
+      $mcnx->num->kados_projects->remove(array('project_id'=>$_REQUEST['id_to_delete']));
+      $mcnx->num->kados_projects_users->remove(array('project_id_fk'=>$_REQUEST['id_to_delete']));
+      $mcnx->num->kados_projects_settings->remove(array('project_id_fk'=>$_REQUEST['id_to_delete']));
+      $mcnx->num->kados_projects_colors->remove(array('project_id_fk'=>$_REQUEST['id_to_delete']));
+      $mcnx->num->kados_projects_columns->remove(array('project_id_fk'=>$_REQUEST['id_to_delete']));
       
       if (isset($_SESSION['current_project_id']))
       {
@@ -277,6 +277,9 @@ $mcnx->num->kados_users_bookmarks->remove(array('project_id_fk'=>$id2delete));
     {
       $filterOnPrivateProjects="AND (project_visibility='PUB' OR (project_visibility='PRI' AND (profile_name!='' OR project_creator='".$_SESSION['login']."')))";
     }  
+    if(is_array($_SESSION['login'])){
+        $_SESSION['login'] = $_SESSION['login']['username'];
+    }
     // Display projects bookmarks
     $sqlProjectsBookmarks="SELECT project_id,project_name,DATE(project_creation_date) AS project_creation_date,bookmark_color,bookmark_order,project_levels,  
 	                     status_translation_value AS status_value,project_external_project_id,project_external_project_connection_id,project_creator,  

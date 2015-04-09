@@ -1,951 +1,608 @@
-2014-11-29 12:07:42 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kadoss/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:00:48 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/projects.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus WHERE menu_father='' AND menu_translation_language='en' AND menu_tag=framework_menus_translations.menu_tag_fk AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk AND profile_id_fk=5478ef25f05ef768068b4693 ORDER BY menu_order)
-2014-12-24 19:00:48 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/projects.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus WHERE menu_father='projects' AND menu_translation_language='en' AND menu_tag=framework_menus_translations.menu_tag_fk AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk AND profile_id_fk=5478ef25f05ef768068b4693 ORDER BY menu_order)
-2014-12-24 19:00:48 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/projects.php - (SELECT menu_tag FROM framework_menus,framework_profiles_constitution_menus WHERE menu_father='projects' AND menu_tag=menu_tag_fk AND profile_id_fk=5478ef25f05ef768068b4693  AND menu_default=1 ORDER BY menu_order)
-2014-12-24 19:00:48 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/projects.php - (SELECT SUBSTRING(TRIM(TRAILING '?' FROM menu_file),LOCATE('/',menu_file)+1) 
-                 FROM framework_menus,framework_profiles_constitution_menus 
-                 WHERE menu_tag_fk=menu_tag AND profile_id_fk=5478ef25f05ef768068b4693)
-2014-12-24 19:00:48 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/projects.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-              FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-              WHERE menu_father='' AND menu_translation_language='en' 
-                AND menu_tag=framework_menus_translations.menu_tag_fk 
-                AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-                AND profile_id_fk=5478ef25f05ef768068b4693 ORDER BY menu_order)
-2014-12-24 19:00:49 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/projects.php - (SELECT status_id,status_translation_value AS status_value,status_icon FROM framework_status,framework_status_translations,framework_workflows_transitions,framework_workflows_transitions_profiles WHERE profile_id_fk=5478ef25f05ef768068b4693 AND status_id_fk=status_id AND status_translation_language='en' AND transition_id_fk=transition_id AND transition_final_status=framework_status.status_id AND transition_initial_status=5 AND transition_wf_id_fk=5)
-2014-12-24 19:00:49 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:00:49 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:00:49 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:00:49 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:00:49 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:00:49 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:00:49 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:00:49 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:00:49 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:00:49 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:00:49 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:00:49 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:00:49 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:00:49 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:00:49 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:00:49 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:00:49 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:00:49 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:00:49 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:00:49 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:00:54 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:00:54 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:00:54 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:00:54 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:00:54 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:00:54 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:00:54 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:00:54 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:00:54 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:00:54 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:00:54 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:00:54 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:00:54 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:00:54 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:00:54 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:00:54 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:00:54 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:00:54 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:00:54 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:00:55 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:00:55 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:01:16 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:01:16 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:01:16 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:01:16 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:01:16 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:01:16 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:01:16 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:01:16 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:01:16 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:01:16 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:01:16 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:01:16 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:01:16 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:01:16 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:01:16 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:01:16 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:01:16 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:01:16 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:01:16 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:01:16 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:01:29 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:01:29 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:01:30 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:01:30 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:01:30 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:01:30 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:01:30 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:01:30 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:01:30 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:01:30 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:01:30 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:01:30 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:01:30 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:01:30 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:01:30 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:01:30 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:01:30 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:01:30 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:01:30 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:01:30 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:01:30 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:05:41 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:05:41 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:05:41 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:05:41 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:05:41 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:05:41 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:05:41 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:05:41 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:05:41 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:05:41 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:05:41 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:05:41 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:05:41 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:05:41 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:05:41 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:05:41 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:05:41 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:05:41 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:05:42 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:05:42 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-24 19:05:42 => Unknown column '5478ef25f05ef768068b4693' in 'where clause' - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
-             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
-             WHERE menu_father='' AND menu_translation_language='en' 
-               AND menu_tag=framework_menus_translations.menu_tag_fk 
-               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
-               AND profile_id_fk=5478ef25f05ef768068b4693 
-             ORDER BY menu_order)
-2014-12-25 14:17:24 => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY menu_order' at line 1 - /kados/project_cockpit.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus WHERE menu_father='' AND menu_translation_language='en' AND menu_tag=framework_menus_translations.menu_tag_fk AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk AND profile_id_fk= ORDER BY menu_order)
-2014-12-25 14:17:24 => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY menu_order' at line 1 - /kados/project_cockpit.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus WHERE menu_father='cockpit' AND menu_translation_language='en' AND menu_tag=framework_menus_translations.menu_tag_fk AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk AND profile_id_fk= ORDER BY menu_order)
-2014-12-25 14:17:24 => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND menu_default=1 ORDER BY menu_order' at line 1 - /kados/project_cockpit.php - (SELECT menu_tag FROM framework_menus,framework_profiles_constitution_menus WHERE menu_father='cockpit' AND menu_tag=menu_tag_fk AND profile_id_fk=  AND menu_default=1 ORDER BY menu_order)
-2014-12-25 14:17:24 => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3 - /kados/project_cockpit.php - (SELECT SUBSTRING(TRIM(TRAILING '?' FROM menu_file),LOCATE('/',menu_file)+1) 
-                 FROM framework_menus,framework_profiles_constitution_menus 
-                 WHERE menu_tag_fk=menu_tag AND profile_id_fk=)
-2014-12-25 14:17:24 => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '
-							       '2014-12-25 14:17:24','',,
-								   'PUB')' at line 3 - /kados/project_cockpit.php - (INSERT INTO kados_projects ( project_name, project_status_id_fk,project_creation_date,project_creator,
-	                                                     project_levels,project_visibility) 
-                          VALUES('',,
-							       '2014-12-25 14:17:24','',,
-								   'PUB'))
-2014-12-25 14:30:56 => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '
-							       '2014-12-25 14:30:56','',,
-								   'PUB')' at line 3 - /kados/project_cockpit.php - (INSERT INTO kados_projects ( project_name, project_status_id_fk,project_creation_date,project_creator,
-	                                                     project_levels,project_visibility) 
-                          VALUES('',,
-							       '2014-12-25 14:30:56','',,
-								   'PUB'))
-2014-12-25 14:31:53 => Duplicate entry 'PP_VAL-0' for key 'PRIMARY' - /kados/project_cockpit.php - (INSERT INTO kados_projects_settings (project_id_fk,setting_tag,setting_value) 
-	                                             VALUES (0,'PP_VAL','0;1;2;3;5;8;13;20;30;50;80;100'))
-2014-12-25 14:31:53 => Duplicate entry 'US_BVL-0' for key 'PRIMARY' - /kados/project_cockpit.php - (INSERT INTO kados_projects_settings (project_id_fk,setting_tag,setting_value) 
-	                                             VALUES (0,'US_BVL','0;100;200;300;500;800;1000;2000'))
-2014-12-25 14:31:53 => Duplicate entry 'WK_DAY-0' for key 'PRIMARY' - /kados/project_cockpit.php - (INSERT INTO kados_projects_settings (project_id_fk,setting_tag,setting_value) 
-	                                             VALUES (0,'WK_DAY','0;1;2;3;4'))
-2014-12-25 14:38:14 => Unknown column 'project_id' in 'where clause' - /kados/project_cockpit.php - (SELECT * FROM kados_projects_settings WHERE project_id='0')
-2014-12-25 14:38:14 => Unknown column 'project_id' in 'where clause' - /kados/project_cockpit.php - (SELECT * FROM kados_projects_settings WHERE project_id='0')
-2014-12-25 14:38:14 => Unknown column 'project_id' in 'where clause' - /kados/project_cockpit.php - (SELECT * FROM kados_projects_settings WHERE project_id='0')
-2014-12-25 14:53:33 => Unknown column 'project_id' in 'where clause' - /kados/project_cockpit.php - (SELECT * FROM kados_projects_settings WHERE project_id='0')
-2014-12-25 14:53:33 => Unknown column 'project_id' in 'where clause' - /kados/project_cockpit.php - (SELECT * FROM kados_projects_settings WHERE project_id='0')
-2014-12-25 14:53:33 => Unknown column 'project_id' in 'where clause' - /kados/project_cockpit.php - (SELECT * FROM kados_projects_settings WHERE project_id='0')
-2014-12-31 22:02:22 => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY menu_order' at line 1 - /kados/project_cockpit.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus WHERE menu_father='' AND menu_translation_language='en' AND menu_tag=framework_menus_translations.menu_tag_fk AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk AND profile_id_fk= ORDER BY menu_order)
-2014-12-31 22:02:22 => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY menu_order' at line 1 - /kados/project_cockpit.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus WHERE menu_father='cockpit' AND menu_translation_language='en' AND menu_tag=framework_menus_translations.menu_tag_fk AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk AND profile_id_fk= ORDER BY menu_order)
-2014-12-31 22:02:22 => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND menu_default=1 ORDER BY menu_order' at line 1 - /kados/project_cockpit.php - (SELECT menu_tag FROM framework_menus,framework_profiles_constitution_menus WHERE menu_father='cockpit' AND menu_tag=menu_tag_fk AND profile_id_fk=  AND menu_default=1 ORDER BY menu_order)
-2014-12-31 22:02:22 => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3 - /kados/project_cockpit.php - (SELECT SUBSTRING(TRIM(TRAILING '?' FROM menu_file),LOCATE('/',menu_file)+1) 
-                 FROM framework_menus,framework_profiles_constitution_menus 
-                 WHERE menu_tag_fk=menu_tag AND profile_id_fk=)
-2014-12-31 22:02:22 => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '
-							       '2014-12-31 22:02:22','',,
-								   'PUB')' at line 3 - /kados/project_cockpit.php - (INSERT INTO kados_projects ( project_name, project_status_id_fk,project_creation_date,project_creator,
-	                                                     project_levels,project_visibility) 
-                          VALUES('',,
-							       '2014-12-31 22:02:22','',,
-								   'PUB'))
-2014-12-31 22:02:22 => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''PP_VAL','0;1;2;3;5;8;13;20;30;50;80;100')' at line 2 - /kados/project_cockpit.php - (INSERT INTO kados_projects_settings (project_id_fk,setting_tag,setting_value) 
-	                                             VALUES (,'PP_VAL','0;1;2;3;5;8;13;20;30;50;80;100'))
-2014-12-31 22:02:22 => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''US_BVL','0;100;200;300;500;800;1000;2000')' at line 2 - /kados/project_cockpit.php - (INSERT INTO kados_projects_settings (project_id_fk,setting_tag,setting_value) 
-	                                             VALUES (,'US_BVL','0;100;200;300;500;800;1000;2000'))
-2014-12-31 22:02:22 => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''WK_DAY','0;1;2;3;4')' at line 2 - /kados/project_cockpit.php - (INSERT INTO kados_projects_settings (project_id_fk,setting_tag,setting_value) 
-	                                             VALUES (,'WK_DAY','0;1;2;3;4'))
-2014-12-31 22:02:22 => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '3,'')' at line 2 - /kados/project_cockpit.php - (INSERT IGNORE INTO kados_users_bookmarks (user_login_fk,project_id_fk,bookmark_order,bookmark_color) 
-	                        VALUES ('',,3,''))
-2014-12-31 22:02:22 => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3 - /kados/project_cockpit.php - (SELECT profile_id_fk
-                        FROM kados_projects_users
-                        WHERE user_login_fk='' AND project_id_fk=)
-2015-01-10 00:12:18 => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY menu_order' at line 1 - /kados/projects.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus WHERE menu_father='' AND menu_translation_language='en' AND menu_tag=framework_menus_translations.menu_tag_fk AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk AND profile_id_fk= ORDER BY menu_order)
-2015-01-10 00:12:18 => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3 - /kados/projects.php - (SELECT SUBSTRING(TRIM(TRAILING '?' FROM menu_file),LOCATE('/',menu_file)+1) 
-                 FROM framework_menus,framework_profiles_constitution_menus 
-                 WHERE menu_tag_fk=menu_tag AND profile_id_fk=)
-2015-01-10 00:12:18 => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND status_id_fk=status_id AND status_translation_language='en' AND transition_i' at line 1 - /kados/projects.php - (SELECT status_id,status_translation_value AS status_value,status_icon FROM framework_status,framework_status_translations,framework_workflows_transitions,framework_workflows_transitions_profiles WHERE profile_id_fk= AND status_id_fk=status_id AND status_translation_language='en' AND transition_id_fk=transition_id AND transition_final_status=framework_status.status_id AND transition_initial_status=5 AND transition_wf_id_fk=5)
-2015-01-10 00:12:18 => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND status_id_fk=status_id AND status_translation_language='en' AND transition_i' at line 1 - /kados/projects.php - (SELECT status_id,status_translation_value AS status_value,status_icon FROM framework_status,framework_status_translations,framework_workflows_transitions,framework_workflows_transitions_profiles WHERE profile_id_fk= AND status_id_fk=status_id AND status_translation_language='en' AND transition_id_fk=transition_id AND transition_final_status=framework_status.status_id AND transition_initial_status=8 AND transition_wf_id_fk=5)
-2015-04-07 21:10:52 => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY menu_order' at line 7 - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
+2015-04-08 20:15:16 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:16 => No database selected - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
              FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
              WHERE menu_father='' AND menu_translation_language='en' 
                AND menu_tag=framework_menus_translations.menu_tag_fk 
                AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
                AND profile_id_fk= 
              ORDER BY menu_order)
-2015-04-07 21:10:52 => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY menu_order' at line 7 - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
+2015-04-08 20:15:16 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:16 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:16 => No database selected - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
              FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
              WHERE menu_father='' AND menu_translation_language='en' 
                AND menu_tag=framework_menus_translations.menu_tag_fk 
                AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
                AND profile_id_fk= 
              ORDER BY menu_order)
-2015-04-07 21:10:52 => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY menu_order' at line 7 - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
+2015-04-08 20:15:16 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:16 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:16 => No database selected - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
              FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
              WHERE menu_father='' AND menu_translation_language='en' 
                AND menu_tag=framework_menus_translations.menu_tag_fk 
                AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
                AND profile_id_fk= 
              ORDER BY menu_order)
-2015-04-07 21:10:52 => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY menu_order' at line 7 - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
+2015-04-08 20:15:16 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:16 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:16 => No database selected - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
              FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
              WHERE menu_father='' AND menu_translation_language='en' 
                AND menu_tag=framework_menus_translations.menu_tag_fk 
                AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
                AND profile_id_fk= 
              ORDER BY menu_order)
-2015-04-07 21:10:52 => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY menu_order' at line 7 - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
+2015-04-08 20:15:16 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:16 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:16 => No database selected - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
              FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
              WHERE menu_father='' AND menu_translation_language='en' 
                AND menu_tag=framework_menus_translations.menu_tag_fk 
                AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
                AND profile_id_fk= 
              ORDER BY menu_order)
-2015-04-07 21:10:52 => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY menu_order' at line 7 - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
+2015-04-08 20:15:16 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:17 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:17 => No database selected - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
              FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
              WHERE menu_father='' AND menu_translation_language='en' 
                AND menu_tag=framework_menus_translations.menu_tag_fk 
                AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
                AND profile_id_fk= 
              ORDER BY menu_order)
-2015-04-07 21:10:52 => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY menu_order' at line 7 - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
+2015-04-08 20:15:17 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:17 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:17 => No database selected - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
              FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
              WHERE menu_father='' AND menu_translation_language='en' 
                AND menu_tag=framework_menus_translations.menu_tag_fk 
                AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
                AND profile_id_fk= 
              ORDER BY menu_order)
-2015-04-07 21:10:52 => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY menu_order' at line 7 - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
+2015-04-08 20:15:17 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:17 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:17 => No database selected - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
              FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
              WHERE menu_father='' AND menu_translation_language='en' 
                AND menu_tag=framework_menus_translations.menu_tag_fk 
                AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
                AND profile_id_fk= 
              ORDER BY menu_order)
-2015-04-07 21:10:52 => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY menu_order' at line 7 - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
+2015-04-08 20:15:17 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:17 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:17 => No database selected - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
              FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
              WHERE menu_father='' AND menu_translation_language='en' 
                AND menu_tag=framework_menus_translations.menu_tag_fk 
                AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
                AND profile_id_fk= 
              ORDER BY menu_order)
-2015-04-07 21:10:52 => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY menu_order' at line 7 - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
+2015-04-08 20:15:17 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:17 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:17 => No database selected - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
              FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
              WHERE menu_father='' AND menu_translation_language='en' 
                AND menu_tag=framework_menus_translations.menu_tag_fk 
                AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
                AND profile_id_fk= 
              ORDER BY menu_order)
-2015-04-07 21:10:52 => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY menu_order' at line 7 - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
+2015-04-08 20:15:17 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:17 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:17 => No database selected - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
              FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
              WHERE menu_father='' AND menu_translation_language='en' 
                AND menu_tag=framework_menus_translations.menu_tag_fk 
                AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
                AND profile_id_fk= 
              ORDER BY menu_order)
-2015-04-07 21:10:52 => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY menu_order' at line 7 - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
+2015-04-08 20:15:17 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:17 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:17 => No database selected - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
              FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
              WHERE menu_father='' AND menu_translation_language='en' 
                AND menu_tag=framework_menus_translations.menu_tag_fk 
                AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
                AND profile_id_fk= 
              ORDER BY menu_order)
-2015-04-07 21:10:52 => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY menu_order' at line 7 - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
+2015-04-08 20:15:17 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:17 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:17 => No database selected - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
              FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
              WHERE menu_father='' AND menu_translation_language='en' 
                AND menu_tag=framework_menus_translations.menu_tag_fk 
                AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
                AND profile_id_fk= 
              ORDER BY menu_order)
-2015-04-07 21:10:52 => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY menu_order' at line 7 - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
+2015-04-08 20:15:17 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:17 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:17 => No database selected - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
              FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
              WHERE menu_father='' AND menu_translation_language='en' 
                AND menu_tag=framework_menus_translations.menu_tag_fk 
                AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
                AND profile_id_fk= 
              ORDER BY menu_order)
-2015-04-07 21:10:52 => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY menu_order' at line 7 - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
+2015-04-08 20:15:17 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:17 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:17 => No database selected - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
              FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
              WHERE menu_father='' AND menu_translation_language='en' 
                AND menu_tag=framework_menus_translations.menu_tag_fk 
                AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
                AND profile_id_fk= 
              ORDER BY menu_order)
-2015-04-07 21:10:52 => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY menu_order' at line 7 - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
+2015-04-08 20:15:17 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:17 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:17 => No database selected - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
              FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
              WHERE menu_father='' AND menu_translation_language='en' 
                AND menu_tag=framework_menus_translations.menu_tag_fk 
                AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
                AND profile_id_fk= 
              ORDER BY menu_order)
-2015-04-07 21:10:52 => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY menu_order' at line 7 - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
+2015-04-08 20:15:17 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:17 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:17 => No database selected - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
              FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
              WHERE menu_father='' AND menu_translation_language='en' 
                AND menu_tag=framework_menus_translations.menu_tag_fk 
                AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
                AND profile_id_fk= 
              ORDER BY menu_order)
-2015-04-07 21:10:52 => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY menu_order' at line 7 - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
+2015-04-08 20:15:17 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:17 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:17 => No database selected - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
              FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
              WHERE menu_father='' AND menu_translation_language='en' 
                AND menu_tag=framework_menus_translations.menu_tag_fk 
                AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
                AND profile_id_fk= 
              ORDER BY menu_order)
-2015-04-07 21:10:52 => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY menu_order' at line 7 - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
+2015-04-08 20:15:17 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:17 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:17 => No database selected - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
              FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
              WHERE menu_father='' AND menu_translation_language='en' 
                AND menu_tag=framework_menus_translations.menu_tag_fk 
                AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
                AND profile_id_fk= 
              ORDER BY menu_order)
-2015-04-07 21:10:52 => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY menu_order' at line 7 - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
+2015-04-08 20:15:17 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:17 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:17 => No database selected - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
              FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
              WHERE menu_father='' AND menu_translation_language='en' 
                AND menu_tag=framework_menus_translations.menu_tag_fk 
                AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
                AND profile_id_fk= 
              ORDER BY menu_order)
-2015-04-07 21:10:52 => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY menu_order' at line 7 - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
+2015-04-08 20:15:17 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:17 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:17 => No database selected - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
              FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
              WHERE menu_father='' AND menu_translation_language='en' 
                AND menu_tag=framework_menus_translations.menu_tag_fk 
                AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
                AND profile_id_fk= 
              ORDER BY menu_order)
+2015-04-08 20:15:17 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:17 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:17 => No database selected - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
+             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
+             WHERE menu_father='' AND menu_translation_language='en' 
+               AND menu_tag=framework_menus_translations.menu_tag_fk 
+               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
+               AND profile_id_fk= 
+             ORDER BY menu_order)
+2015-04-08 20:15:17 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:17 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:17 => No database selected - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
+             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
+             WHERE menu_father='' AND menu_translation_language='en' 
+               AND menu_tag=framework_menus_translations.menu_tag_fk 
+               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
+               AND profile_id_fk= 
+             ORDER BY menu_order)
+2015-04-08 20:15:17 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:17 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:17 => No database selected - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
+             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
+             WHERE menu_father='' AND menu_translation_language='en' 
+               AND menu_tag=framework_menus_translations.menu_tag_fk 
+               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
+               AND profile_id_fk= 
+             ORDER BY menu_order)
+2015-04-08 20:15:17 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:17 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:17 => No database selected - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
+             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
+             WHERE menu_father='' AND menu_translation_language='en' 
+               AND menu_tag=framework_menus_translations.menu_tag_fk 
+               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
+               AND profile_id_fk= 
+             ORDER BY menu_order)
+2015-04-08 20:15:17 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:17 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:17 => No database selected - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
+             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
+             WHERE menu_father='' AND menu_translation_language='en' 
+               AND menu_tag=framework_menus_translations.menu_tag_fk 
+               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
+               AND profile_id_fk= 
+             ORDER BY menu_order)
+2015-04-08 20:15:17 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:39 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:39 => No database selected - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
+             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
+             WHERE menu_father='' AND menu_translation_language='en' 
+               AND menu_tag=framework_menus_translations.menu_tag_fk 
+               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
+               AND profile_id_fk= 
+             ORDER BY menu_order)
+2015-04-08 20:15:39 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:39 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:39 => No database selected - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
+             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
+             WHERE menu_father='' AND menu_translation_language='en' 
+               AND menu_tag=framework_menus_translations.menu_tag_fk 
+               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
+               AND profile_id_fk= 
+             ORDER BY menu_order)
+2015-04-08 20:15:39 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:39 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:39 => No database selected - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
+             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
+             WHERE menu_father='' AND menu_translation_language='en' 
+               AND menu_tag=framework_menus_translations.menu_tag_fk 
+               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
+               AND profile_id_fk= 
+             ORDER BY menu_order)
+2015-04-08 20:15:39 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:39 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:39 => No database selected - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
+             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
+             WHERE menu_father='' AND menu_translation_language='en' 
+               AND menu_tag=framework_menus_translations.menu_tag_fk 
+               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
+               AND profile_id_fk= 
+             ORDER BY menu_order)
+2015-04-08 20:15:39 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:39 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:39 => No database selected - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
+             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
+             WHERE menu_father='' AND menu_translation_language='en' 
+               AND menu_tag=framework_menus_translations.menu_tag_fk 
+               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
+               AND profile_id_fk= 
+             ORDER BY menu_order)
+2015-04-08 20:15:39 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:39 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:39 => No database selected - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
+             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
+             WHERE menu_father='' AND menu_translation_language='en' 
+               AND menu_tag=framework_menus_translations.menu_tag_fk 
+               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
+               AND profile_id_fk= 
+             ORDER BY menu_order)
+2015-04-08 20:15:39 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:39 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:39 => No database selected - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
+             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
+             WHERE menu_father='' AND menu_translation_language='en' 
+               AND menu_tag=framework_menus_translations.menu_tag_fk 
+               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
+               AND profile_id_fk= 
+             ORDER BY menu_order)
+2015-04-08 20:15:39 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:39 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:39 => No database selected - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
+             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
+             WHERE menu_father='' AND menu_translation_language='en' 
+               AND menu_tag=framework_menus_translations.menu_tag_fk 
+               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
+               AND profile_id_fk= 
+             ORDER BY menu_order)
+2015-04-08 20:15:39 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:39 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:39 => No database selected - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
+             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
+             WHERE menu_father='' AND menu_translation_language='en' 
+               AND menu_tag=framework_menus_translations.menu_tag_fk 
+               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
+               AND profile_id_fk= 
+             ORDER BY menu_order)
+2015-04-08 20:15:39 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:39 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:39 => No database selected - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
+             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
+             WHERE menu_father='' AND menu_translation_language='en' 
+               AND menu_tag=framework_menus_translations.menu_tag_fk 
+               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
+               AND profile_id_fk= 
+             ORDER BY menu_order)
+2015-04-08 20:15:39 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:39 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:39 => No database selected - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
+             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
+             WHERE menu_father='' AND menu_translation_language='en' 
+               AND menu_tag=framework_menus_translations.menu_tag_fk 
+               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
+               AND profile_id_fk= 
+             ORDER BY menu_order)
+2015-04-08 20:15:39 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:39 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:39 => No database selected - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
+             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
+             WHERE menu_father='' AND menu_translation_language='en' 
+               AND menu_tag=framework_menus_translations.menu_tag_fk 
+               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
+               AND profile_id_fk= 
+             ORDER BY menu_order)
+2015-04-08 20:15:39 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:39 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:39 => No database selected - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
+             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
+             WHERE menu_father='' AND menu_translation_language='en' 
+               AND menu_tag=framework_menus_translations.menu_tag_fk 
+               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
+               AND profile_id_fk= 
+             ORDER BY menu_order)
+2015-04-08 20:15:39 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:39 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:39 => No database selected - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
+             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
+             WHERE menu_father='' AND menu_translation_language='en' 
+               AND menu_tag=framework_menus_translations.menu_tag_fk 
+               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
+               AND profile_id_fk= 
+             ORDER BY menu_order)
+2015-04-08 20:15:39 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:39 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:39 => No database selected - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
+             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
+             WHERE menu_father='' AND menu_translation_language='en' 
+               AND menu_tag=framework_menus_translations.menu_tag_fk 
+               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
+               AND profile_id_fk= 
+             ORDER BY menu_order)
+2015-04-08 20:15:39 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:39 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:39 => No database selected - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
+             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
+             WHERE menu_father='' AND menu_translation_language='en' 
+               AND menu_tag=framework_menus_translations.menu_tag_fk 
+               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
+               AND profile_id_fk= 
+             ORDER BY menu_order)
+2015-04-08 20:15:39 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:39 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:39 => No database selected - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
+             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
+             WHERE menu_father='' AND menu_translation_language='en' 
+               AND menu_tag=framework_menus_translations.menu_tag_fk 
+               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
+               AND profile_id_fk= 
+             ORDER BY menu_order)
+2015-04-08 20:15:39 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:39 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:39 => No database selected - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
+             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
+             WHERE menu_father='' AND menu_translation_language='en' 
+               AND menu_tag=framework_menus_translations.menu_tag_fk 
+               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
+               AND profile_id_fk= 
+             ORDER BY menu_order)
+2015-04-08 20:15:39 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:39 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:39 => No database selected - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
+             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
+             WHERE menu_father='' AND menu_translation_language='en' 
+               AND menu_tag=framework_menus_translations.menu_tag_fk 
+               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
+               AND profile_id_fk= 
+             ORDER BY menu_order)
+2015-04-08 20:15:39 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:39 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:39 => No database selected - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
+             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
+             WHERE menu_father='' AND menu_translation_language='en' 
+               AND menu_tag=framework_menus_translations.menu_tag_fk 
+               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
+               AND profile_id_fk= 
+             ORDER BY menu_order)
+2015-04-08 20:15:39 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:44 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:44 => No database selected - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
+             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
+             WHERE menu_father='' AND menu_translation_language='en' 
+               AND menu_tag=framework_menus_translations.menu_tag_fk 
+               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
+               AND profile_id_fk= 
+             ORDER BY menu_order)
+2015-04-08 20:15:44 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:44 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:44 => No database selected - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
+             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
+             WHERE menu_father='' AND menu_translation_language='en' 
+               AND menu_tag=framework_menus_translations.menu_tag_fk 
+               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
+               AND profile_id_fk= 
+             ORDER BY menu_order)
+2015-04-08 20:15:44 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:44 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:44 => No database selected - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
+             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
+             WHERE menu_father='' AND menu_translation_language='en' 
+               AND menu_tag=framework_menus_translations.menu_tag_fk 
+               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
+               AND profile_id_fk= 
+             ORDER BY menu_order)
+2015-04-08 20:15:44 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:44 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:44 => No database selected - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
+             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
+             WHERE menu_father='' AND menu_translation_language='en' 
+               AND menu_tag=framework_menus_translations.menu_tag_fk 
+               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
+               AND profile_id_fk= 
+             ORDER BY menu_order)
+2015-04-08 20:15:44 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:44 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:44 => No database selected - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
+             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
+             WHERE menu_father='' AND menu_translation_language='en' 
+               AND menu_tag=framework_menus_translations.menu_tag_fk 
+               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
+               AND profile_id_fk= 
+             ORDER BY menu_order)
+2015-04-08 20:15:44 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:45 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:45 => No database selected - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
+             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
+             WHERE menu_father='' AND menu_translation_language='en' 
+               AND menu_tag=framework_menus_translations.menu_tag_fk 
+               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
+               AND profile_id_fk= 
+             ORDER BY menu_order)
+2015-04-08 20:15:45 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:45 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:45 => No database selected - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
+             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
+             WHERE menu_father='' AND menu_translation_language='en' 
+               AND menu_tag=framework_menus_translations.menu_tag_fk 
+               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
+               AND profile_id_fk= 
+             ORDER BY menu_order)
+2015-04-08 20:15:45 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:45 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:45 => No database selected - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
+             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
+             WHERE menu_father='' AND menu_translation_language='en' 
+               AND menu_tag=framework_menus_translations.menu_tag_fk 
+               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
+               AND profile_id_fk= 
+             ORDER BY menu_order)
+2015-04-08 20:15:45 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:45 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:45 => No database selected - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
+             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
+             WHERE menu_father='' AND menu_translation_language='en' 
+               AND menu_tag=framework_menus_translations.menu_tag_fk 
+               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
+               AND profile_id_fk= 
+             ORDER BY menu_order)
+2015-04-08 20:15:45 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:45 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:45 => No database selected - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
+             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
+             WHERE menu_father='' AND menu_translation_language='en' 
+               AND menu_tag=framework_menus_translations.menu_tag_fk 
+               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
+               AND profile_id_fk= 
+             ORDER BY menu_order)
+2015-04-08 20:15:45 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:45 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:45 => No database selected - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
+             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
+             WHERE menu_father='' AND menu_translation_language='en' 
+               AND menu_tag=framework_menus_translations.menu_tag_fk 
+               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
+               AND profile_id_fk= 
+             ORDER BY menu_order)
+2015-04-08 20:15:45 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:45 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:45 => No database selected - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
+             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
+             WHERE menu_father='' AND menu_translation_language='en' 
+               AND menu_tag=framework_menus_translations.menu_tag_fk 
+               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
+               AND profile_id_fk= 
+             ORDER BY menu_order)
+2015-04-08 20:15:45 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:45 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:45 => No database selected - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
+             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
+             WHERE menu_father='' AND menu_translation_language='en' 
+               AND menu_tag=framework_menus_translations.menu_tag_fk 
+               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
+               AND profile_id_fk= 
+             ORDER BY menu_order)
+2015-04-08 20:15:45 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:45 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:45 => No database selected - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
+             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
+             WHERE menu_father='' AND menu_translation_language='en' 
+               AND menu_tag=framework_menus_translations.menu_tag_fk 
+               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
+               AND profile_id_fk= 
+             ORDER BY menu_order)
+2015-04-08 20:15:45 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:45 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:45 => No database selected - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
+             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
+             WHERE menu_father='' AND menu_translation_language='en' 
+               AND menu_tag=framework_menus_translations.menu_tag_fk 
+               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
+               AND profile_id_fk= 
+             ORDER BY menu_order)
+2015-04-08 20:15:45 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:45 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:45 => No database selected - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
+             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
+             WHERE menu_father='' AND menu_translation_language='en' 
+               AND menu_tag=framework_menus_translations.menu_tag_fk 
+               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
+               AND profile_id_fk= 
+             ORDER BY menu_order)
+2015-04-08 20:15:45 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:45 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:45 => No database selected - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
+             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
+             WHERE menu_father='' AND menu_translation_language='en' 
+               AND menu_tag=framework_menus_translations.menu_tag_fk 
+               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
+               AND profile_id_fk= 
+             ORDER BY menu_order)
+2015-04-08 20:15:45 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:45 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:45 => No database selected - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
+             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
+             WHERE menu_father='' AND menu_translation_language='en' 
+               AND menu_tag=framework_menus_translations.menu_tag_fk 
+               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
+               AND profile_id_fk= 
+             ORDER BY menu_order)
+2015-04-08 20:15:45 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:45 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:45 => No database selected - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
+             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
+             WHERE menu_father='' AND menu_translation_language='en' 
+               AND menu_tag=framework_menus_translations.menu_tag_fk 
+               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
+               AND profile_id_fk= 
+             ORDER BY menu_order)
+2015-04-08 20:15:45 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:45 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:45 => No database selected - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
+             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
+             WHERE menu_father='' AND menu_translation_language='en' 
+               AND menu_tag=framework_menus_translations.menu_tag_fk 
+               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
+               AND profile_id_fk= 
+             ORDER BY menu_order)
+2015-04-08 20:15:45 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:45 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:15:45 => No database selected - /kados/index.php - (SELECT menu_tag AS tag,menu_translation_value AS titre,menu_file AS file 
+             FROM framework_menus,framework_menus_translations,framework_profiles_constitution_menus 
+             WHERE menu_father='' AND menu_translation_language='en' 
+               AND menu_tag=framework_menus_translations.menu_tag_fk 
+               AND menu_tag=framework_profiles_constitution_menus.menu_tag_fk 
+               AND profile_id_fk= 
+             ORDER BY menu_order)
+2015-04-08 20:15:45 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:16:59 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 20:16:59 => No database selected - /kados/index.php - (SELECT language_tag FROM framework_languages)
+2015-04-08 21:02:59 => Unknown column 'project_creatort' in 'field list' - /kados/projects.php - (UPDATE kados_projects SET  project_name='testto', project_creatort='admin' 
+                            WHERE project_id=11)
 
